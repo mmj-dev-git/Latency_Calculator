@@ -1,0 +1,2 @@
+D:\Android\FeatureLatencyCalculatorProject\OboeTester\CMakeLists.txt
+D:\Android\FeatureLatencyCalculatorProject\OboeTester\src\main\oboe-1.5-stable\CMakeLists.txt

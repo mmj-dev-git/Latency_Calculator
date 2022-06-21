@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobileer.oboetester" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <!-- versionCode and versionName also have to be updated in build.gradle -->
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.audio.output"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.midi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- This is needed for sharing test results. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mobileer.oboetester.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mobileer.oboetester.TestOutputActivity"
+            android:label="@string/title_activity_test_output"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.TestInputActivity"
+            android:label="@string/title_activity_test_input"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.TapToToneActivity"
+            android:label="@string/title_activity_output_latency"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.RecorderActivity"
+            android:label="@string/title_activity_recorder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.EchoActivity"
+            android:label="@string/title_activity_echo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.RoundTripLatencyActivity"
+            android:label="@string/title_activity_rt_latency"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.ManualGlitchActivity"
+            android:label="@string/title_activity_glitches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.AutomatedGlitchActivity"
+            android:label="@string/title_activity_auto_glitches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.TestDisconnectActivity"
+            android:label="@string/title_test_disconnect"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.DeviceReportActivity"
+            android:label="@string/title_report_devices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.TestDataPathsActivity"
+            android:label="@string/title_data_paths"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mobileer.oboetester.ExtraTestsActivity"
+            android:exported="true"
+            android:label="@string/title_extra_tests" />
+        <activity
+            android:name="com.mobileer.oboetester.ExternalTapToToneActivity"
+            android:exported="true"
+            android:label="@string/title_external_tap" />
+
+        <service
+            android:name="com.mobileer.oboetester.MidiTapTester"
+            android:exported="true"
+            android:permission="android.permission.BIND_MIDI_DEVICE_SERVICE" >
+            <intent-filter>
+                <action android:name="android.media.midi.MidiDeviceService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.midi.MidiDeviceService"
+                android:resource="@xml/service_device_info" />
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

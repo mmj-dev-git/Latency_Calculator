@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "D:\\Android\\FeatureLatencyCalculatorProject\\OboeTester\\CMakeLists.txt",
+    "D:\\Android\\FeatureLatencyCalculatorProject\\OboeTester\\src\\main\\oboe-1.5-stable\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Android\\FeatureLatencyCalculatorProject\\OboeTester\\.cxx\\Debug\\6j2e694j\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "oboetester::@6890427a1f51a3e7e1df": {
+      "artifactName": "oboetester",
+      "abi": "x86_64",
+      "output": "D:\\Android\\FeatureLatencyCalculatorProject\\OboeTester\\build\\intermediates\\cxx\\Debug\\6j2e694j\\obj\\x86_64\\liboboetester.so",
+      "runtimeFiles": []
+    },
+    "oboe::@2eb8bc11657237233fcf": {
+      "artifactName": "oboe",
+      "abi": "x86_64",
+      "output": "D:\\Android\\FeatureLatencyCalculatorProject\\OboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\\oboe-bin\\liboboe.a",
+      "runtimeFiles": []
+    }
+  }
+}

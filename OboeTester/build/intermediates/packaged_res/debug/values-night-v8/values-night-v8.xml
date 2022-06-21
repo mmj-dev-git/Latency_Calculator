@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="array_dot_active">
+        <item>@color/active_dots</item>
+        <item>@color/active_dots</item>
+        <item>@color/active_dots</item>
+        <item>@color/active_dots</item>
+        <item>@color/active_dots</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/inactive_dots</item>
+        <item>@color/inactive_dots</item>
+        <item>@color/inactive_dots</item>
+        <item>@color/inactive_dots</item>
+        <item>@color/inactive_dots</item>
+    </array>
+    <color name="accentColor">#00274C</color>
+    <color name="actionButtonsColor">#FAFAFA</color>
+    <color name="active_dots">#00274C</color>
+    <color name="backgroundColor">#EEEEEE</color>
+    <color name="background_color">#F8F7F2</color>
+    <color name="black">#FF000000</color>
+    <color name="blackColor">#000000</color>
+    <color name="black_button_color">#2D2E36</color>
+    <color name="blur">#A6FFFFFF</color>
+    <color name="blurmain">#40191919</color>
+    <color name="bottom_navigation_bg">#2F2E41</color>
+    <color name="bottom_navigation_icon">#18CCBC</color>
+    <color name="bottom_sheet_dialog_background">#FAFAFA</color>
+    <color name="buttonColor">#2F2E41</color>
+    <color name="calender_bg">#2F2E41</color>
+    <color name="callButtonColor">#00B929</color>
+    <color name="cancelColor">#FF5959</color>
+    <color name="cancel_bg">#662F2E41</color>
+    <color name="cardBackgroundColor">#EFF2F8</color>
+    <color name="cardColor_black">#2F2E41</color>
+    <color name="cardCommentBg">#20CFD3DD</color>
+    <color name="cardWhiteColor">#FAFAFA</color>
+    <color name="cards">#26E8745B</color>
+    <color name="cardsColor">#FAFAFA</color>
+    <color name="chat_box">#80E2E2E2</color>
+    <color name="circle_horizontal">#F2F2F2</color>
+    <color name="color7B14p">#257B7B7B</color>
+    <color name="colorAccent">#2F2E41</color>
+    <color name="colorAccent_O88">#4D000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDimGray">#F6F6F6</color>
+    <color name="colorGradientCenter">#d76d77</color>
+    <color name="colorGradientEnd">#3a1c71</color>
+    <color name="colorGradientStart">#ffaf7b</color>
+    <color name="colorGray">#858282</color>
+    <color name="colorGrayNearby">#d9d9d9</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorPrimary_dup">#FFFFFF</color>
+    <color name="colorSecondary">#00274C</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="confu_basic">#18CCBC</color>
+    <color name="confu_basic_dark">#1fab9e</color>
+    <color name="confu_black_basic_color">#2F2E41</color>
+    <color name="confu_button_bg_color">#2F2E41</color>
+    <color name="confu_button_text_color">#18CCBC</color>
+    <color name="confu_dark">#2F2E41</color>
+    <color name="confu_shade_black">#292929</color>
+    <color name="confu_shade_green">#B218CCBC</color>
+    <color name="dark_00">#00000000</color>
+    <color name="dialog_color">#2F2E41</color>
+    <color name="dimTextColor">#C4C4C4</color>
+    <color name="doodle_bg">#F0F0F0</color>
+    <color name="doodle_circle">#2F2E41</color>
+    <color name="dotActiveColor">#23E6A3</color>
+    <color name="dotLightColor">#C4C4C4</color>
+    <color name="fade">#2F2E41</color>
+    <color name="fadecorner">#40191919</color>
+    <color name="fading_end">#00EEEEEE</color>
+    <color name="fading_start">#ffEEEEEE</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="greenColor">#18CCBC</color>
+    <color name="green_white">#18CCBC</color>
+    <color name="grey">#81808A</color>
+    <color name="greyColor">#969696</color>
+    <color name="greyColor_2">#8E8E93</color>
+    <color name="headingColor">#081C4B</color>
+    <color name="holder_background">#F2F2F2</color>
+    <color name="holder_off">#C4C4C4</color>
+    <color name="holder_text_color">#2F2E41</color>
+    <color name="horizontal_normal_text_Color">#FFFFFF</color>
+    <color name="iconBorderColor">#EEEEEE</color>
+    <color name="iconColor">#646E8A</color>
+    <color name="inactiveOTPColor">#CCCCCC</color>
+    <color name="inactive_dots">#4D000000</color>
+    <color name="inputsColor">#FAFAFA</color>
+    <color name="landingBackgroundColor">#F3F5FF</color>
+    <color name="light_text">#96949B</color>
+    <color name="meeting_background_DARK_ORANGE">#FF671A</color>
+    <color name="meeting_background_LIGHT_ORANGE">#E77051</color>
+    <color name="meeting_background_MAHROON">#65376A</color>
+    <color name="meeting_background_MUSTARD">#F4A261</color>
+    <color name="meeting_background_PURPLE">#4F58DF</color>
+    <color name="meeting_background_SEA_GREEN">#5EAAA8</color>
+    <color name="meeting_background_YELLOW">#FFA928</color>
+    <color name="meeting_icon_bg">#0F2F2E41</color>
+    <color name="moon_bg">#2F2E41</color>
+    <color name="mtrl_textinput_default_box_stroke_color" ns1:Overide="true">#9099B1</color>
+    <color name="next_arrow">#C4C4C4</color>
+    <color name="op_white">#B32F2E41</color>
+    <color name="otp_normal_state">#8E8E93</color>
+    <color name="party_accent">#FF0066</color>
+    <color name="party_background_color">#1C1867</color>
+    <color name="party_background_color_new">#FFEA6A5B</color>
+    <color name="party_background_color_search">#0F0B5A</color>
+    <color name="party_navigationBar_color">#FF314C7B</color>
+    <color name="party_primary">#020A20</color>
+    <color name="party_primary_dark">#010510</color>
+    <color name="pop_selection">#0D0D0D</color>
+    <color name="primaryColor">#FFCB05</color>
+    <color name="recent_call_icon">#8E8E93</color>
+    <color name="recent_info">#2F2E41</color>
+    <color name="rectangle_view">#B3040B0A</color>
+    <color name="redColor">#FB0202</color>
+    <color name="rejectColor">#EB4548</color>
+    <color name="resendTextColor">#CCCCCC</color>
+    <color name="resend_text_color">#979797</color>
+    <color name="save_bg">#2F2E41</color>
+    <color name="scheduleColor">#26E8745B</color>
+    <color name="schedule_item_bg">#d9d9d9</color>
+    <color name="sea_green_text_color">#DEF5FE</color>
+    <color name="search_bar">#353334</color>
+    <color name="search_bar_bg">#F2F2F2</color>
+    <color name="shadow">#91000000</color>
+    <color name="skipTextColor">#B5B4BA</color>
+    <color name="subHeadingColor">#9099B1</color>
+    <color name="switch_bgColor">#C4C4C4</color>
+    <color name="switch_color">#34C759</color>
+    <color name="tabSelectedTextColor">#2F2E41</color>
+    <color name="tabTextColor">#CCCCCC</color>
+    <color name="textColor">#646E8A</color>
+    <color name="textColor_dark">#E9EAF2</color>
+    <color name="textColor_hint">#C4C4C4</color>
+    <color name="textColor_light">#8E8E93</color>
+    <color name="textFieldColor">#2F2E41</color>
+    <color name="textFieldColor_2">#353334</color>
+    <color name="text_black">#353334</color>
+    <color name="transparent">#0000</color>
+    <color name="transparentColor">#00000000</color>
+    <color name="transparentextra">#4D000000</color>
+    <color name="underline">#CFE5E5E5</color>
+    <color name="viewPager_text">#2F2E41</color>
+    <color name="view_color">#C4C4C4</color>
+    <color name="view_color_30">#4DC4C4C4</color>
+    <color name="viewpager_dots">#2F2E41</color>
+    <color name="white">#ffffff</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_chat_bottom">#E8FFFFFF</color>
+    <color name="white_overlay">#1AFFFFFF</color>
+    <color name="white_overlay1">#0AFFFFFF</color>
+    <color name="white_transparent">#B3D3D3D3</color>
+    <color name="youtube_red">#FF0000</color>
+</resources>

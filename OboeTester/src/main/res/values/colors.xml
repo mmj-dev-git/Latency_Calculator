@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!--This is our Main palette -->
+    <!--Primary Color Palette-->
+    <color name="colorPrimary">#EDEDED</color>
+    <color name="colorPrimaryLight">#F1F2F2</color>
+    <color name="colorPrimaryDark">#F0F0F0</color>
+    <!--Secondary Color Palette-->
+    <color name="colorSecondary">#FFFFFF</color>
+    <!--Accent Color Palette-->
+    <color name="colorAccent">#03B0BB</color>
+    <color name="colorAccent30">#1903B0BB</color>
+    <color name="colorAccent15">#0D03B0BB</color>
+    <!--Text Color Palette-->
+    <color name="black">#FF000000</color>
+    <color name="colorText">#2F2E41</color>
+    <color name="colorTextGrey">#B7B9BD</color>
+    <color name="colorGrey">#F4F6F6</color>c
+    <color name="colorTextBlack">#2F2E41</color>
+    <color name="colorBorder">#B7B9BD</color>
+    <color name="colorBlack40p">#66000000</color>
+    <color name="colorWhite20p">#33FFFFFF</color>
+    <color name="colorDetailButtonBg">#F9FAFC</color>
+    <color name="colorBottomSheetBg">#661B2237</color>
+    <color name="colorCC19p">#30CCCCCC</color>
+    <color name="color7B14p">#257B7B7B</color>
+    <color name="white">#ffffff</color>
+    <color name="waveform_line">#ff101080</color>
+    <color name="waveform_background">#ffc0f0c0</color>
+    <color name="version_draft">#ffffb0b0</color>
+    <color name="version_release">#fff0f0f0</color>
+    <color name="button_tint">#ffe0f0e0</color>
+
+</resources>

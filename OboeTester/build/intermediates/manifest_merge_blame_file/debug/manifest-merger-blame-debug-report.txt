@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.mobileer.oboetester" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="23"
+7-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml
+9
+10    <!-- versionCode and versionName also have to be updated in build.gradle -->
+11    <uses-feature
+11-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:7:5-9:36
+12        android:name="android.hardware.microphone"
+12-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:8:9-51
+13        android:required="false" />
+13-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:9:9-33
+14    <uses-feature
+14-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:10:5-12:35
+15        android:name="android.hardware.audio.output"
+15-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:11:9-53
+16        android:required="true" />
+16-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:12:9-32
+17    <uses-feature
+17-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:13:5-15:36
+18        android:name="android.hardware.touchscreen"
+18-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:14:9-52
+19        android:required="false" />
+19-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:15:9-33
+20    <uses-feature
+20-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:16:5-18:36
+21        android:name="android.software.midi"
+21-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:17:9-45
+22        android:required="false" />
+22-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:18:9-33
+23    <uses-feature
+23-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:19:5-21:36
+24        android:name="android.software.leanback"
+24-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:20:9-49
+25        android:required="false" />
+25-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:21:9-33
+26
+27    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+27-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:23:5-71
+27-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:23:22-68
+28    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+28-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:24:5-80
+28-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:24:22-77
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:25:5-67
+29-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:25:22-64
+30    <!-- This is needed for sharing test results. -->
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:27:5-81
+31-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:27:22-78
+32    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+32-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:28:5-75
+32-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:28:22-72
+33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+33-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:29:5-80
+33-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:29:22-77
+34
+35    <application
+35-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:31:5-115:19
+36        android:largeHeap="true"
+36-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:32:9-33
+37        android:theme="@style/AppTheme" >
+37-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:33:9-40
+38        <activity
+38-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:34:9-38:20
+39            android:name="com.mobileer.oboetester.MainActivity"
+39-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:35:13-41
+40            android:label="@string/app_name"
+40-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:36:13-45
+41            android:screenOrientation="portrait" >
+41-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:37:12-48
+42        </activity>
+43        <activity
+43-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:39:9-42:52
+44            android:name="com.mobileer.oboetester.TestOutputActivity"
+44-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:40:13-47
+45            android:label="@string/title_activity_test_output"
+45-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:41:13-63
+46            android:screenOrientation="portrait" />
+46-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:42:13-49
+47        <activity
+47-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:43:9-46:52
+48            android:name="com.mobileer.oboetester.TestInputActivity"
+48-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:44:13-46
+49            android:label="@string/title_activity_test_input"
+49-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:45:13-62
+50            android:screenOrientation="portrait" />
+50-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:46:13-49
+51        <activity
+51-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:47:9-50:52
+52            android:name="com.mobileer.oboetester.TapToToneActivity"
+52-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:48:13-46
+53            android:label="@string/title_activity_output_latency"
+53-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:49:13-66
+54            android:screenOrientation="portrait" />
+54-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:50:13-49
+55        <activity
+55-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:51:9-54:52
+56            android:name="com.mobileer.oboetester.RecorderActivity"
+56-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:52:13-45
+57            android:label="@string/title_activity_recorder"
+57-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:53:13-60
+58            android:screenOrientation="portrait" />
+58-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:54:13-49
+59        <activity
+59-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:55:9-58:52
+60            android:name="com.mobileer.oboetester.EchoActivity"
+60-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:56:13-41
+61            android:label="@string/title_activity_echo"
+61-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:57:13-56
+62            android:screenOrientation="portrait" />
+62-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:58:13-49
+63        <activity
+63-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:59:9-62:52
+64            android:name="com.mobileer.oboetester.RoundTripLatencyActivity"
+64-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:60:13-53
+65            android:label="@string/title_activity_rt_latency"
+65-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:61:13-62
+66            android:screenOrientation="portrait" />
+66-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:62:13-49
+67        <activity
+67-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:63:9-66:52
+68            android:name="com.mobileer.oboetester.ManualGlitchActivity"
+68-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:64:13-49
+69            android:label="@string/title_activity_glitches"
+69-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:65:13-60
+70            android:screenOrientation="portrait" />
+70-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:66:13-49
+71        <activity
+71-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:67:9-70:52
+72            android:name="com.mobileer.oboetester.AutomatedGlitchActivity"
+72-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:68:13-52
+73            android:label="@string/title_activity_auto_glitches"
+73-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:69:13-65
+74            android:screenOrientation="portrait" />
+74-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:70:13-49
+75        <activity
+75-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:71:9-74:52
+76            android:name="com.mobileer.oboetester.TestDisconnectActivity"
+76-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:72:13-51
+77            android:label="@string/title_test_disconnect"
+77-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:73:13-58
+78            android:screenOrientation="portrait" />
+78-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:74:13-49
+79        <activity
+79-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:75:9-78:52
+80            android:name="com.mobileer.oboetester.DeviceReportActivity"
+80-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:76:13-49
+81            android:label="@string/title_report_devices"
+81-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:77:13-57
+82            android:screenOrientation="portrait" />
+82-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:78:13-49
+83        <activity
+83-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:79:9-82:52
+84            android:name="com.mobileer.oboetester.TestDataPathsActivity"
+84-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:80:13-50
+85            android:label="@string/title_data_paths"
+85-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:81:13-53
+86            android:screenOrientation="portrait" />
+86-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:82:13-49
+87        <activity
+87-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:83:9-86:57
+88            android:name="com.mobileer.oboetester.ExtraTestsActivity"
+88-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:84:13-47
+89            android:exported="true"
+89-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:85:13-36
+90            android:label="@string/title_extra_tests" />
+90-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:86:13-54
+91        <activity
+91-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:88:9-91:39
+92            android:name="com.mobileer.oboetester.ExternalTapToToneActivity"
+92-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:89:13-54
+93            android:exported="true"
+93-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:91:13-36
+94            android:label="@string/title_external_tap" />
+94-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:90:13-55
+95
+96        <service
+96-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:93:9-104:19
+97            android:name="com.mobileer.oboetester.MidiTapTester"
+97-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:94:13-42
+98            android:exported="true"
+98-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:95:13-36
+99            android:permission="android.permission.BIND_MIDI_DEVICE_SERVICE" >
+99-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:96:13-77
+100            <intent-filter>
+100-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:97:13-99:29
+101                <action android:name="android.media.midi.MidiDeviceService" />
+101-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:98:17-79
+101-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:98:25-76
+102            </intent-filter>
+103
+104            <meta-data
+104-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:101:13-103:63
+105                android:name="android.media.midi.MidiDeviceService"
+105-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:102:17-68
+106                android:resource="@xml/service_device_info" />
+106-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:103:17-60
+107        </service>
+108
+109        <provider
+109-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:106:9-114:20
+110            android:name="androidx.core.content.FileProvider"
+110-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:107:13-62
+111            android:authorities="${applicationId}.provider"
+111-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:108:13-60
+112            android:exported="false"
+112-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:109:13-37
+113            android:grantUriPermissions="true" >
+113-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:110:13-47
+114            <meta-data
+114-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:111:13-113:58
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:112:17-67
+116                android:resource="@xml/provider_paths" />
+116-->D:\Android\FeatureLatencyCalculatorProject\oboeTester\src\main\AndroidManifest.xml:113:17-55
+117        </provider>
+118    </application>
+119
+120</manifest>

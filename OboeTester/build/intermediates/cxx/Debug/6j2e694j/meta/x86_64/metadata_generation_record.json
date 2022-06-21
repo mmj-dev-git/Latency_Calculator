@@ -1,0 +1,184 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 23 min SDK version: x86_64",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1700653508
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\\android_gradle_build.json due to:",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1850976422
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1646826680
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1736362810
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 229947485
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\u0027",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1312032636
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\u0027",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1537131784
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d23\n-DANDROID_PLATFORM\u003dandroid-23\n-DANDROID_ABI\u003dx86_64\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\n-DANDROID_NDK\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\build\\intermediates\\cxx\\Debug\\6j2e694j\\obj\\x86_64\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\build\\intermediates\\cxx\\Debug\\6j2e694j\\obj\\x86_64\n-DCMAKE_BUILD_TYPE\u003dDebug\n-BD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\n-GNinja\njvmArgs : \n\n",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -359013421
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d23\n-DANDROID_PLATFORM\u003dandroid-23\n-DANDROID_ABI\u003dx86_64\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\n-DANDROID_NDK\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\mohsin.javed\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\build\\intermediates\\cxx\\Debug\\6j2e694j\\obj\\x86_64\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\build\\intermediates\\cxx\\Debug\\6j2e694j\\obj\\x86_64\n-DCMAKE_BUILD_TYPE\u003dDebug\n-BD:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\n-GNinja\njvmArgs : \n\n",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1127144238
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\\compile_commands.json.bin normally",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1487940526
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -82398766
+  },
+  {
+    "level_": 0,
+    "message_": "write command file D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\.cxx\\Debug\\6j2e694j\\x86_64\\metadata_generation_command.txt",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1492110180
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "D:\\Android\\FeatureLatencyCalculatorProject\\oboeTester\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1855674318
+  }
+]
